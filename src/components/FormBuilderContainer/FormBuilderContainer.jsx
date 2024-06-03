@@ -14,8 +14,6 @@ function FormBuilderContainer() {
         setProfile({...profile, [name]: value});
     }
 
-    console.log(profile);
-
     return (
         <div>
             <Profile profile={profile} handleInputChange={handleInputChange}/>

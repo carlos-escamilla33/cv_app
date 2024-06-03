@@ -1,10 +1,11 @@
 import ProfileInput from "../ProfileInput/ProfileInput"
+import "./Profile.css";
 
 function Profile({profile, handleInputChange}) {
     
     
     return (
-        <div>
+        <div id="profile-container">
             <ProfileInput type="text" placeholder="firstName" name="firstName"
              handleInputChange={handleInputChange} value={profile.firstName}/>
 
