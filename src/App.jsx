@@ -1,10 +1,9 @@
-import { FormBuilderContainer, Profile } from "./components"
+import { FormBuilderContainer } from "./components"
 
 function App() {
 
   return (
     <FormBuilderContainer>
-      <Profile />
     </FormBuilderContainer>
   )
 }

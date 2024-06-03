@@ -1,8 +1,9 @@
 
-function ProfileInput({type, placeholder, handleFirstName }) {
-    
+function ProfileInput({type, placeholder, name, handleInputChange, value }) {
+
     return (
-        <input type={type} placeholder={placeholder} onChange={handleFirstName}/>
+        <input type={type} placeholder={placeholder} name={name}
+         onChange={handleInputChange} value={value}/>
     )
 }
 
