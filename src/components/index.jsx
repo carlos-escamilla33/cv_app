@@ -1,2 +1,2 @@
 
-export {default as FormBuilderContainer} from "./FormBuilderContainer";
+export {default as FormBuilderContainer} from "./FormBuilderContainer/FormBuilderContainer";
