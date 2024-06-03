@@ -1,7 +1,7 @@
 
-function ProfileInput() {
+function ProfileInput({type, placeholder }) {
     return (
-        <></>
+        <input type={type} placeholder={placeholder} />
     )
 }
 

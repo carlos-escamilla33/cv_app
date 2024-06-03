@@ -1,11 +1,11 @@
-
+import { FormBuilderContainer, Profile } from "./components"
 
 function App() {
 
   return (
-    <>
-    hello world
-    </>
+    <FormBuilderContainer>
+      <Profile />
+    </FormBuilderContainer>
   )
 }
 
