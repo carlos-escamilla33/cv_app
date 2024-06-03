@@ -9,16 +9,22 @@ function Profile() {
         email: "",
     });
 
-
-
-    function submitForm() {
-
+    function handleInputChange(e) {
+        const {name, value} = e.target;
+        setProfile({...profile, [name]: value});
     }
-
+    
     return (
-        <form action={submitForm}>
+        <div>
+            <ProfileInput type="text" placeholder={"first name"}
+             handleInputChange={handleInputChange} value={profile.firstName}/>
 
-        </form>
+            <ProfileInput type="text" placeholder={"last name"}
+             handleInputChange={handleInputChange} value={profile.lastName}/>
+
+            <ProfileInput type="tel" placeholder={"phone number"} handleInputChange={handleInputChange}/>
+            <ProfileInput type="email" placeholder={"email"}/>
+        </div>
     )
 }
 
