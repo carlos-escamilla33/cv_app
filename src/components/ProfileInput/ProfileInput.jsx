@@ -1,9 +1,17 @@
+import "./ProfileInput.css";
 
 function ProfileInput({type, placeholder, name, handleInputChange, value }) {
 
     return (
-        <input type={type} placeholder={placeholder} name={name}
-         onChange={handleInputChange} value={value}/>
+        <div>
+            <input className="profile-input"
+                type={type}
+                placeholder={placeholder}
+                name={name}
+                onChange={handleInputChange}
+                value={value} 
+            />
+        </div>
     )
 }
 
