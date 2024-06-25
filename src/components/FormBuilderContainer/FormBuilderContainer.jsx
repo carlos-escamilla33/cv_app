@@ -7,6 +7,8 @@ function FormBuilderContainer() {
         lastName: "",
         phoneNumber: "",
         email: "",
+        schoolName: "",
+        major: "",
     });
 
     function handleInputChange(e) {

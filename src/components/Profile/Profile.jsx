@@ -6,7 +6,7 @@ function Profile({profile, handleInputChange}) {
     
     return (
         <div id="profile-container">
-            <ProfileInput type="text" placeholder="firstName" name="firstName"
+            <ProfileInput type="text" placeholder={"firstName"} name="firstName"
              handleInputChange={handleInputChange} value={profile.firstName}/>
 
             <ProfileInput type="text" placeholder={"last name"} name="lastName"
@@ -17,6 +17,9 @@ function Profile({profile, handleInputChange}) {
 
             <ProfileInput type="email" placeholder={"email"} name="email"
              handleInputChange={handleInputChange} value={profile.email}/>
+
+             <ProfileInput type="text" placeholder={"schoolName"} name="schoolName"
+              handleInputChange={handleInputChange} value={profile.schoolName}/>
         </div>
     )
 }
