@@ -8,7 +8,8 @@ function ProfileInput({type, placeholder, name, handleInputChange, value }) {
             placeholder={placeholder}
             name={name}
             onChange={handleInputChange}
-            value={value} 
+            value={value}
+            required
         />
     )
 }
