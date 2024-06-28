@@ -20,6 +20,9 @@ function Profile({profile, handleInputChange}) {
 
              <ProfileInput type="text" placeholder={"schoolName"} name="schoolName"
               handleInputChange={handleInputChange} value={profile.schoolName}/>
+
+              <ProfileInput type="text" placeholder={"major"} name="major"
+              handleInputChange={handleInputChange} value={profile.major}/>
         </div>
     )
 }
