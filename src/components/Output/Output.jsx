@@ -1,7 +1,9 @@
 
 function Output() {
     return(
-        <></>
+        <div className="output-container">
+            
+        </div>
     )
 }
 

@@ -1,4 +1,5 @@
 import Profile from "../Profile/Profile";
+import Output from "../Output/Output";
 import { useState } from "react";
 
 function FormBuilderContainer() {
@@ -19,6 +20,7 @@ function FormBuilderContainer() {
     return (
         <div>
             <Profile profile={profile} handleInputChange={handleInputChange}/>
+            <Output />
         </div>
     )
 }
