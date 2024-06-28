@@ -2,8 +2,17 @@
 .output-container {
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
 }
 
 .name {
     font-size: 50px;
+}
+
+hr {
+    height:1px;
+    width: 100%;
+    border: none;
+    background-color: black;
 }
